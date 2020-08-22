@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Krypton", "Krypton\Krypton.csproj", "{2B659DCA-5A2C-4930-98F8-1729D162D314}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Krypton.Core", "Krypton.Core\Krypton.Core.csproj", "{D8A10EC2-5520-4F8C-89D6-82307CAD0F3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Krypton.Pipeline", "Krypton.Pipeline\Krypton.Pipeline.csproj", "{7D47DC7A-C4A5-47BB-855E-1D0FE25B67F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B659DCA-5A2C-4930-98F8-1729D162D314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B659DCA-5A2C-4930-98F8-1729D162D314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B659DCA-5A2C-4930-98F8-1729D162D314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B659DCA-5A2C-4930-98F8-1729D162D314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8A10EC2-5520-4F8C-89D6-82307CAD0F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A10EC2-5520-4F8C-89D6-82307CAD0F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A10EC2-5520-4F8C-89D6-82307CAD0F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A10EC2-5520-4F8C-89D6-82307CAD0F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D47DC7A-C4A5-47BB-855E-1D0FE25B67F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D47DC7A-C4A5-47BB-855E-1D0FE25B67F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D47DC7A-C4A5-47BB-855E-1D0FE25B67F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D47DC7A-C4A5-47BB-855E-1D0FE25B67F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
