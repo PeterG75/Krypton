@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using Krypton.Core;
+using Krypton.Pipeline.Stages;
 
 namespace Krypton.Pipeline
 {
@@ -8,7 +9,10 @@ namespace Krypton.Pipeline
         public Devirtualizer(DevirtualizationCtx Ctx)
         {
             this.Ctx = Ctx;
-            Stages = new List<IStage>();
+            Stages = new List<IStage>
+            {
+                new ResourceParsing()
+            };
         }
 
         public DevirtualizationCtx Ctx { get; set; }
@@ -26,8 +30,9 @@ namespace Krypton.Pipeline
 
         public void Save()
         {
-            Ctx.Module.Write(Ctx.Options.OutPath);
-            Ctx.Options.Logger.Success($"Wrote File At {Ctx.Options.OutPath}");
+            //https://github.com/Washi1337/AsmResolver/issues/92
+            //Ctx.Module.Write(Ctx.Options.OutPath,new ManagedPEImageBuilder(new DotNetDirectoryFactory(MetadataBuilderFlags.PreserveAll))); 
+            //Ctx.Options.Logger.Success($"Wrote File At {Ctx.Options.OutPath}");
         }
     }
 }

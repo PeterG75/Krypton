@@ -1,4 +1,5 @@
 ﻿using AsmResolver.DotNet;
+using Krypton.Core.Parser;
 
 namespace Krypton.Core
 {
@@ -12,5 +13,6 @@ namespace Krypton.Core
 
         public DevirtualizationOptions Options { get; set; }
         public ModuleDefinition Module { get; set; }
+        public ResourceParser Parser { get; set; }
     }
 }

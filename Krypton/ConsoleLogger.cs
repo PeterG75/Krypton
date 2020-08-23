@@ -26,12 +26,26 @@ namespace Krypton
             WriteLine(message, Color.Gray, '*');
         }
 
+        public void InfoStr(string message, string message2)
+        {
+            WriteLineInfo(message, Color.Red, message2);
+        }
+
+
         private void WriteLine(string message, Color color, char character)
         {
             Console.Write("[", Color.White);
             Console.Write(character, color);
             Console.Write("] ", Color.White);
             Console.WriteLine(message, color);
+        }
+
+        private void WriteLineInfo(string message, Color color, string msg2)
+        {
+            Console.Write("[", color);
+            Console.Write(msg2, Color.White);
+            Console.Write("] ", color);
+            Console.WriteLine(message, Color.Aqua);
         }
     }
 }
