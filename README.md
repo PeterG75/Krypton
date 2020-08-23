@@ -9,7 +9,7 @@ Current Status:
 
 - [ ] OpCode Mapping  
 
-  ![0%](https://progress-bar.dev/0)
+  ![5%](https://progress-bar.dev/0)
 
 - [ ] Method Dissasembling  
 

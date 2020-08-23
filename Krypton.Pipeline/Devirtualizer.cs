@@ -11,7 +11,8 @@ namespace Krypton.Pipeline
             this.Ctx = Ctx;
             Stages = new List<IStage>
             {
-                new ResourceParsing()
+                new ResourceParsing(),
+                new OpcodeMapping()
             };
         }
 
