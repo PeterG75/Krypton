@@ -3,11 +3,26 @@
 
 Current Status:
 ---------------
-- [ ] Resource Parsing
-- [ ] OpCode Mapping
-- [ ] Dissasembling
+- [ ] Resource Parsing  
+
+![0%](https://progress-bar.dev/0)
+
+- [ ] OpCode Mapping  
+
+![0%](https://progress-bar.dev/0)
+
+- [ ] Dissasembling  
+
+![0%](https://progress-bar.dev/0)
+
 - [ ] Recompiling
-- [ ] Replacing
+
+![0%](https://progress-bar.dev/0)
+
+- [ ] Replacing     
+
+![0%](https://progress-bar.dev/0)
+
 
 Usage:
 ------
