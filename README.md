@@ -11,7 +11,7 @@ Current Status:
 
   ![5%](https://progress-bar.dev/0)
 
-- [ ] Method Dissasembling  
+- [ ] Method Disassembling  
 
   ![0%](https://progress-bar.dev/0)
 
