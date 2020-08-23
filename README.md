@@ -11,15 +11,15 @@ Current Status:
 
   ![0%](https://progress-bar.dev/0)
 
-- [ ] Dissasembling  
+- [ ] Method Dissasembling  
 
   ![0%](https://progress-bar.dev/0)
 
-- [ ] Recompiling
+- [ ] Method Recompiling
 
   ![0%](https://progress-bar.dev/0)
 
-- [ ] Replacing     
+- [ ] Method Replacing     
 
   ![0%](https://progress-bar.dev/0)
 
