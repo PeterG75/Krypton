@@ -1,4 +1,6 @@
-﻿using AsmResolver.DotNet;
+﻿using System.Collections.Generic;
+using AsmResolver.DotNet;
+using Krypton.Core.Architecture;
 using Krypton.Core.Parser;
 using Krypton.Core.PatternMatching;
 
@@ -16,5 +18,6 @@ namespace Krypton.Core
         public ModuleDefinition Module { get; set; }
         public ResourceParser Parser { get; set; }
         public PatternMatcher PatternMatcher { get; set; }
+        public IList<VMMethod> VirtualizedMethods { get; set; }
     }
 }

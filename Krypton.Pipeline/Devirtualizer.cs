@@ -12,7 +12,8 @@ namespace Krypton.Pipeline
             Stages = new List<IStage>
             {
                 new ResourceParsing(),
-                new OpcodeMapping()
+                new OpcodeMapping(),
+                new MethodDisassembling()
             };
         }
 

@@ -13,7 +13,7 @@ Current Status:
 
 - [ ] Method Disassembling  
 
-  ![0%](https://progress-bar.dev/0)
+  ![80%](https://progress-bar.dev/80)
 
 - [ ] Method Recompiling
 

@@ -8,7 +8,8 @@ namespace Krypton.Core.PatternMatching.Patterns
     public class Ldstr : IPattern
     {
         public VMOpCode Translates => VMOpCode.Ldstr;
-        public IList<CilOpCode> Pattern => new List<CilOpCode>()
+
+        public IList<CilOpCode> Pattern => new List<CilOpCode>
         {
             CilOpCodes.Ldsfld,
             CilOpCodes.Callvirt,
@@ -28,8 +29,9 @@ namespace Krypton.Core.PatternMatching.Patterns
             CilOpCodes.Callvirt,
             CilOpCodes.Newobj,
             CilOpCodes.Callvirt,
-            CilOpCodes.Ret,
+            CilOpCodes.Ret
         };
+
         public bool Verify(MethodDefinition Method, int index)
         {
             return true;

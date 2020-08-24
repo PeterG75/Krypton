@@ -30,7 +30,7 @@ namespace Krypton.Pipeline.Stages
                 var instructionLabel = (CilInstructionLabel) values[i];
                 var index = opcodeHandlerMethod.CilMethodBody.Instructions.IndexOf(instructionLabel.Instruction);
                 var opCode = Ctx.PatternMatcher.FindOpCode(opcodeHandlerMethod, index);
-                if (opCode != VMOpCode.Nop) 
+                if (opCode != VMOpCode.Nop)
                     Ctx.PatternMatcher.SetOpCodeValue(opCode, i);
             }
         }
