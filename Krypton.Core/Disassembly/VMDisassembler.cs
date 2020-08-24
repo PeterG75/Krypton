@@ -13,7 +13,7 @@ namespace Krypton.Core.Disassembly
 
         private DevirtualizationCtx Ctx { get; }
 
-        public VMMethod ReadMethod(int methodKey)
+        public VMMethod DisassembleMethod(int methodKey)
         {
             var method = new VMMethod(methodKey);
             Ctx.Parser.Reader.BaseStream.Position = methodKey;

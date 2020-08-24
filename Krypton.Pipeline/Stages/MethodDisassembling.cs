@@ -15,11 +15,9 @@ namespace Krypton.Pipeline.Stages
             var disassembler = new VMDisassembler(Ctx);
             for (var i = 0; i < Ctx.Parser.MethodKeys.Length; i++)
             {
-                var method = disassembler.ReadMethod(Ctx.Parser.MethodKeys[i]);
+                var method = disassembler.DisassembleMethod(Ctx.Parser.MethodKeys[i]);
                 Ctx.VirtualizedMethods.Add(method);
             }
-
-            ;
         }
     }
 }
