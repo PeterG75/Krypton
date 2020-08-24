@@ -1,5 +1,6 @@
 ﻿using AsmResolver.DotNet;
 using Krypton.Core.Parser;
+using Krypton.Core.PatternMatching;
 
 namespace Krypton.Core
 {
@@ -14,5 +15,6 @@ namespace Krypton.Core
         public DevirtualizationOptions Options { get; set; }
         public ModuleDefinition Module { get; set; }
         public ResourceParser Parser { get; set; }
+        public PatternMatcher PatternMatcher { get; set; }
     }
 }
